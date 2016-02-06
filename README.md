@@ -1,15 +1,14 @@
 # marked
 
-> A full-featured markdown parser and compiler, written in JavaScript. Built
-> for speed.
+This is a fork of [marked](https://github.com/chjj/marked), a
+full-featured markdown parser and compiler, written in JavaScript.
 
-[![NPM version](https://badge.fury.io/js/marked.png)][badge]
+This version adds support for [MathJax](https://www.mathjax.org)
+rendered mathematics.  Math elements delimited by `\(` and `\)` are
+rendered inline and math elements delimited by `\[` and `\]` are
+rendered as a displayed equation. As a consequence the parser no
+longer supports escaped brackets or parentheses.
 
-## Install
-
-``` bash
-npm install marked --save
-```
 
 ## Usage
 
